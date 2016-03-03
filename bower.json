@@ -1,0 +1,23 @@
+{
+  "name": "js-girls.github.io",
+  "homepage": "https://github.com/js-girls/js-girls.github.io",
+  "authors": [
+    "http://github.com/js-girls"
+  ],
+  "description": "js-girls website",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "toast-css": "toast-grid#^1.1.0",
+    "canonical.css": "^1.1.1"
+  }
+}
