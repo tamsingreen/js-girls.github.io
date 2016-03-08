@@ -8,8 +8,6 @@
     <meta name="theme-color" content="#353342">
     <title>js-girls</title>
     <link href='http://fonts.googleapis.com/css?family=Ubuntu+Mono:700' rel='stylesheet' type='text/css'>
-    <!-- <link rel="stylesheet" href="./bower_components/skeleton/css/normalize.css">
-    <link rel="stylesheet" href="./bower_components/skeleton/css/skeleton.css"> -->
     <link rel="stylesheet" href="./bower_components/canonical.css/canonical.min.css">
     <link rel="stylesheet" href="./bower_components/toast-css/css/grid.css">
     <link rel="stylesheet" href="styles/main.css">
@@ -22,26 +20,39 @@
     <!-- end Mixpanel -->
   </head>
   <body>
-    <header class="header">
-      <h1 class="logo">js-girls</h1>
-    </header>
-
     <nav>
       <ul>
-        <li><a href="">Events</a></li>
-        <li><a href="">Guidelines</a></li>
-        <li><a href="">Press</a></li>
+        <li><a href="/" class="logo">js-girls</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="guidelines.html">Guidelines</a></li>
+        <li><a href="press.html">Press</a></li>
       </ul>
     </nav>
 
     <section class="container">
       <div class="grid">
         <div class="grid__col grid__col--3-of-5 grid__col--centered">
+          <p>js-girls was born in Italy from two no-profit volunteer community: <a href="http://milanojs.com">Milano JS</a> and
+            <a href="http://www.girlsintech.it/">Girls In Tech Italy</a>.
+          </p>
+          <p>Our aim is to give tools and a community for women to understand technology and to build their ideas. We do this by providing a great experience on building things and by making technology more approachable.</p>
+
+          <h2>How it works</h2>
           <p>js-girls is a 1-day workshop for girls who want to learn Javascript, one of the most popular languages for web development.</p>
-          <p>In 24 hours you will learn the basics of programming and get an introduction to the world of today's Javascript technology. You will build and interactive web interface using Javascript, HTML and CSS.</p>
+          <p>In 24 hours you will learn the basics of programming and get an introduction to the world of today's
+            Javascript technology.</p>
+          <p>You will build and interactive web interface using Javascript, HTML and CSS.</p>
           <p>No prior knowledge of programming languages is required. Just basics familiarity with a computer.</p>
           <p>Our awesome coaches will guide you through each step and make you build the sample application.</p>
 
+          <h2>Upcoming events:</h2>
+          <ul>
+            <li>April, 2 - Milan</li>
+            <li>April, 15-16 London</li>
+          </ul>
+          <p>More info coming soon</p>
+
+          <h2>Keep in touch</h2>
           <p>Follow us on <a href="https://twitter.com/javascriptgirls">Twitter</a></p>
 
           <section class="newsletter">
@@ -51,8 +62,11 @@
                 <div id="mc_embed_signup_scroll">
                   <div class="mc-field-group">
                     <label for="mce-EMAIL">Enter your e-mail address to be upadate about our initiatives.</label>
-                    <input type="email" placeholder="your@email.address" value="" name="EMAIL" class="required email" id="mce-EMAIL">
-                    <input type="submit" value="sign up" name="subscribe" id="mc-embedded-subscribe" class="button">
+                    <div style="display: flex;">
+                      <input style="flex: 1" type="email" placeholder="your@email.address" value="" name="EMAIL"
+                                 class="required email" id="mce-EMAIL">
+                      <input type="submit" value="sign up" name="subscribe" id="mc-embedded-subscribe" class="button">
+                    </div>
                   </div>
                   <div id="mce-responses" class="clear">
                     <div class="response" id="mce-error-response" style="display:none"></div>
@@ -66,10 +80,10 @@
             <!--End mc_embed_signup-->
           </section>
 
-          <p>js-girls is a joint initiative by
-            <strong><a href="http://milanojs.com">Milano JS</a></strong> and <strong><a href="http://www.girlsintech.it/">Girls in Tech</a></strong> Italy.</p>
-          <a href="http://milanojs.com"><img src="img/mijs.svg" class="organizer-logo organizer-logo-left" alt="Milano JS"/></a>
-          <a href="http://www.girlsintech.it"><img src="img/git.svg" class="organizer-logo" alt="Girls in Tech"/></a>
+          <div>
+            <a href="http://milanojs.com"><img src="img/mijs.svg" class="organizer-logo organizer-logo-left" alt="Milano JS"/></a>
+            <a href="http://www.girlsintech.it"><img src="img/git.svg" class="organizer-logo" alt="Girls in Tech"/></a>
+          </div>
         </div>
       </div>
     </section>
